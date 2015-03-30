@@ -1,0 +1,8 @@
+---
+- name: Install python-pycurl
+  apt: pkg=python-pycurl state=present
+  sudo: true
+- name: Install screen
+  apt: pkg=screen state=present
+  sudo: true
+

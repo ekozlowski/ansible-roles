@@ -1,0 +1,4 @@
+---
+- name: Install Java
+  apt: pkg=default-jre state=present update_cache=true
+  sudo: true
